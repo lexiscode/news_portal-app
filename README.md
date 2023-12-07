@@ -52,10 +52,12 @@ Welcome to the News Website Laravel Project! This web application is built using
 7. Now at the top-left corner of the application, you should see `Laragon.MySQL` database section; right-click on it, then select `Create new`, then click on `Database`. Please ensure you name the database `news_portal`, then click OK.
 8. Next, open the project directory (`C:/laragon/www/news_portal-app`) with any IDE (e.g. VS Code) and locate a file named `.env.example`, rename the file to `.env` only. 
 9. Then inside that same .env file, find and renamed the value of the DB_DATABASE from `DB_DATABASE=news_portal` to `DB_DATABASE=news_portal`
-10. Then still inside the project directory (that is, `C:/laragon/www/news_portal-app`) run this command: `composer install`
-11. Lastly, run this migration command, still from within the project directory: `php artisan migrate`
-12. Next, generate your own APP_KEY by running this command still from within the project directory: `php artisan key:generate`
-13. Congratulations!!! Now read its Usage documentation below.
+10. Open/Copy/Import the database.sql file query codes inside the database you've created in the Laragon
+11. Then still inside the project directory (that is, `C:/laragon/www/news_portal-app`) run this command: `composer install`
+12. Lastly, run this migration command, still from within the project directory: `php artisan migrate`
+13. Next, generate your own APP_KEY by running this command still from within the project directory: `php artisan key:generate`
+
+Congratulations!!! Now read its Usage documentation below.
 
 
 ## Usage
